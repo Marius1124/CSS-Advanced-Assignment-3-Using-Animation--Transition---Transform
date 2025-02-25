@@ -22,6 +22,7 @@ a {
   text-decoration: none;
 }
 
+/* Card animation */
 .card {
   width: 50%;
   margin: 0 auto;
@@ -72,7 +73,7 @@ a {
   padding: 75px;
 }
 
-/* Enkel Animert Nettside h1 */
+/* Enkel Animert Nettside h1 3D styling */
 .skewed-title {
   display: inline-block;
   transform: perspective(500px) rotateX(15deg) rotateY(10deg)
@@ -85,6 +86,7 @@ a {
     0px 0px 3px rgba(0, 0, 0, 0.2);
 }
 
+/* Helps center animated-text and button in a column layout */
 .center {
   display: flex;
   flex-direction: column;
@@ -117,6 +119,7 @@ a {
   background: linear-gradient(45deg, blue, rgb(17, 16, 102));
 }
 
+/* Keyframes */
 @keyframes bounce {
   0%,
   100% {
